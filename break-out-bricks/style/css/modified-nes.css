@@ -21,7 +21,24 @@ canvas{
     border: 1px solid black;
 }
 
+div.one{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+div.two{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+div.two > p{
+    margin: 0 1rem;
+}
 
 p,a,button,span{
     font-family: retro;
