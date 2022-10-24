@@ -25,7 +25,7 @@
     },
     {
         "name": "Guess The Logo",
-        "url": "https://guesslogo.netlify.app",
+        "url": "https://guess-logo.netlify.app",
         "hasImage": true,
         "created": "October 24, 2022"
     }
