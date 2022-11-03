@@ -1,6 +1,7 @@
 var right__ = document.getElementById("right__"),
 wrong__ = document.getElementById("wrong__"),
 contentholder__ = document.getElementById("contentholder__");
+var score__ = document.getElementById("score__");
 
 var ddata__;
 var optionOne = document.getElementById("OptionOne__"),
@@ -39,6 +40,8 @@ function newone(){
             e.innerHTML = remove__(ddata__[Math.floor(Math.random() * ddata__.length)]);
         }
     });
+
+    score__.innerHTML = String(x+1);
  
     // checker
     alloption.forEach((e)=>{
