@@ -28,5 +28,11 @@
         "url": "https://guess-logo.netlify.app",
         "hasImage": true,
         "created": "October 24, 2022"
+    },
+    {
+        "name": "Guess The Slogan",
+        "url": "https://slogantrivia.netlify.app",
+        "hasImage": true,
+        "created": "October 24, 2022"
     }
 ]
