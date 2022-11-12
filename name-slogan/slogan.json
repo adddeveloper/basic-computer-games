@@ -1,9 +1,5 @@
 [
     {
-        "slogan": "'Company Name' Is All In.",
-        "answer": "Adidas"
-    },
-    {
         "slogan": "And You’r Done.",
         "answer": "Amazon"
     },
@@ -78,6 +74,10 @@
     {
         "slogan": "Let's Go Places.",
         "answer": "Toyota"
+    },
+    {
+        "slogan": "'Company Name' Is All In.",
+        "answer": "Adidas"
     },
     {
         "slogan": "Save money. Live Better.",
