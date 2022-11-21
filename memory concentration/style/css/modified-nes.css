@@ -1,0 +1,65 @@
+@font-face {
+    font-family: retro;
+    src: url("/style/font/PressStart2P-Regular.ttf");
+}
+
+@font-face {
+    font-family: retroTwo;
+    src: url("/style/font/Pixeboy-z8XGD.ttf");
+}
+
+@font-face {
+    font-family: teko;
+    src: url("/style/font/Teko-Regular.ttf");
+}
+
+*{
+    font-family: retroTwo;
+}
+
+canvas{
+    border: 1px solid black;
+}
+
+
+
+p,a,button,span{
+    font-family: retro;
+    /* font-size: 0.7rem; */
+    text-decoration: none;
+}
+
+abbr[title],
+abbr[data-original-title],
+.nes-select select,
+.nes-checkbox + span,
+.nes-radio + span,
+.nes-btn.is-disabled, .nes-btn.is-disabled:hover,
+.nes-btn.is-disabled:focus,
+.nes-btn, .nes-pointer, a, button,
+html, summary, body
+{
+    cursor: url("/style/cursor/6502\ Normal\ Select.cur"), auto;
+}
+
+abbr[title],
+abbr[data-bs-original-title],
+summary, .form-control[type=file]:not(:disabled):not([readonly]),
+.form-control-color:not(:disabled):not([readonly]),
+.form-range::-webkit-slider-runnable-track,
+.form-range::-moz-range-track,
+.btn,
+.nav-link.disabled,
+.carousel-indicators [data-bs-target],
+.placeholder, button:not(:disabled){
+    cursor: url("/style/cursor/6502\ Normal\ Select.cur"), auto;
+}
+
+[role=button],
+a,
+button:not(:disabled),
+[type=button]:not(:disabled),
+[type=reset]:not(:disabled),
+[type=submit]:not(:disabled), .nes-btn{
+    cursor: url("/style/cursor/6502\ Alternate\ Select.cur"), pointer;
+}

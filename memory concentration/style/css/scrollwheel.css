@@ -1,0 +1,27 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ scoll ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+::-webkit-scrollbar{
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #3d3d3d;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #333;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:active{
+  background: #333;
+  border-radius: 0 50px 50px 0;
+}
+
+::-webkit-scrollbar-track{
+  background: transparent;
+  border-radius: 0px;
+  box-shadow: inset 0px 0px 0px 0px transparent;
+  border-left: solid 1px transparent;
+}

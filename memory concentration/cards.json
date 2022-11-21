@@ -1,0 +1,326 @@
+[
+    {
+        "value": 1,
+        "name": "Ace",
+        "sign": "hearts",
+        "url": "deck/ace-hearts.png"
+    },
+    {
+        "value": 1,
+        "name": "Ace",
+        "sign": "diamonds",
+        "url": "deck/ace-diamonds.png"
+    },
+    {
+        "value": 1,
+        "name": "Ace",
+        "sign": "spades",
+        "url": "deck/ace-spades.png"
+    },
+    {
+        "value": 1,
+        "name": "Ace",
+        "sign": "clubs",
+        "url": "deck/ace-clubs.png"
+    },
+    {
+        "value": 2,
+        "name": "2",
+        "sign": "hearts",
+        "url": "deck/2-hearts.png"
+    },
+    {
+        "value": 2,
+        "name": "2",
+        "sign": "diamonds",
+        "url": "deck/2-diamonds.png"
+    },
+    {
+        "value": 2,
+        "name": "2",
+        "sign": "spades",
+        "url": "deck/2-spades.png"
+    },
+    {
+        "value": 2,
+        "name": "2",
+        "sign": "clubs",
+        "url": "deck/2-clubs.png"
+    },
+    {
+        "value": 3,
+        "name": "3",
+        "sign": "hearts",
+        "url": "deck/3-hearts.png"
+    },
+    {
+        "value": 3,
+        "name": "3",
+        "sign": "diamonds",
+        "url": "deck/3-diamonds.png"
+    },
+    {
+        "value": 3,
+        "name": "3",
+        "sign": "spades",
+        "url": "deck/3-spades.png"
+    },
+    {
+        "value": 3,
+        "name": "3",
+        "sign": "clubs",
+        "url": "deck/3-clubs.png"
+    },
+    {
+        "value": 4,
+        "name": "4",
+        "sign": "hearts",
+        "url": "deck/4-hearts.png"
+    },
+    {
+        "value": 4,
+        "name": "4",
+        "sign": "diamonds",
+        "url": "deck/4-diamonds.png"
+    },
+    {
+        "value": 4,
+        "name": "4",
+        "sign": "spades",
+        "url": "deck/4-spades.png"
+    },
+    {
+        "value": 4,
+        "name": "4",
+        "sign": "clubs",
+        "url": "deck/4-clubs.png"
+    },
+    {
+        "value": 5,
+        "name": "5",
+        "sign": "hearts",
+        "url": "deck/5-hearts.png"
+    },
+    {
+        "value": 5,
+        "name": "5",
+        "sign": "diamonds",
+        "url": "deck/5-diamonds.png"
+    },
+    {
+        "value": 5,
+        "name": "5",
+        "sign": "spades",
+        "url": "deck/5-spades.png"
+    },
+    {
+        "value": 5,
+        "name": "5",
+        "sign": "clubs",
+        "url": "deck/5-clubs.png"
+    },
+    {
+        "value": 6,
+        "name": "6",
+        "sign": "hearts",
+        "url": "deck/6-hearts.png"
+    },
+    {
+        "value": 6,
+        "name": "6",
+        "sign": "diamonds",
+        "url": "deck/6-diamonds.png"
+    },
+    {
+        "value": 6,
+        "name": "6",
+        "sign": "spades",
+        "url": "deck/6-spades.png"
+    },
+    {
+        "value": 6,
+        "name": "6",
+        "sign": "clubs",
+        "url": "deck/6-clubs.png"
+    },
+    {
+        "value": 7,
+        "name": "7",
+        "sign": "hearts",
+        "url": "deck/7-hearts.png"
+    },
+    {
+        "value": 7,
+        "name": "7",
+        "sign": "diamonds",
+        "url": "deck/7-diamonds.png"
+    },
+    {
+        "value": 7,
+        "name": "7",
+        "sign": "spades",
+        "url": "deck/7-spades.png"
+    },
+    {
+        "value": 7,
+        "name": "7",
+        "sign": "clubs",
+        "url": "deck/7-clubs.png"
+    },
+    {
+        "value": 8,
+        "name": "8",
+        "sign": "hearts",
+        "url": "deck/8-hearts.png"
+    },
+    {
+        "value": 8,
+        "name": "8",
+        "sign": "diamonds",
+        "url": "deck/8-diamonds.png"
+    },
+    {
+        "value": 8,
+        "name": "8",
+        "sign": "spades",
+        "url": "deck/8-spades.png"
+    },
+    {
+        "value": 8,
+        "name": "8",
+        "sign": "clubs",
+        "url": "deck/8-clubs.png"
+    },
+    {
+        "value": 9,
+        "name": "9",
+        "sign": "hearts",
+        "url": "deck/9-hearts.png"
+    },
+    {
+        "value": 9,
+        "name": "9",
+        "sign": "diamonds",
+        "url": "deck/9-diamonds.png"
+    },
+    {
+        "value": 9,
+        "name": "9",
+        "sign": "spades",
+        "url": "deck/9-spades.png"
+    },
+    {
+        "value": 9,
+        "name": "9",
+        "sign": "clubs",
+        "url": "deck/9-clubs.png"
+    },
+    {
+        "value": 10,
+        "name": "10",
+        "sign": "hearts",
+        "url": "deck/10-hearts.png"
+    },
+    {
+        "value": 10,
+        "name": "10",
+        "sign": "diamonds",
+        "url": "deck/10-diamonds.png"
+    },
+    {
+        "value": 10,
+        "name": "10",
+        "sign": "spades",
+        "url": "deck/10-spades.png"
+    },
+    {
+        "value": 10,
+        "name": "10",
+        "sign": "clubs",
+        "url": "deck/10-clubs.png"
+    },
+    {
+        "value": 10,
+        "name": "jack",
+        "sign": "hearts",
+        "url": "deck/jack-hearts.png"
+    },
+    {
+        "value": 10,
+        "name": "jack",
+        "sign": "diamonds",
+        "url": "deck/jack-diamonds.png"
+    },
+    {
+        "value": 10,
+        "name": "jack",
+        "sign": "spades",
+        "url": "deck/jack-spades.png"
+    },
+    {
+        "value": 10,
+        "name": "jack",
+        "sign": "clubs",
+        "url": "deck/jack-clubs.png"
+    },
+    {
+        "value": 10,
+        "name": "queen",
+        "sign": "hearts",
+        "url": "deck/queen-hearts.png"
+    },
+    {
+        "value": 10,
+        "name": "queen",
+        "sign": "diamonds",
+        "url": "deck/queen-diamonds.png"
+    },
+    {
+        "value": 10,
+        "name": "queen",
+        "sign": "spades",
+        "url": "deck/queen-spades.png"
+    },
+    {
+        "value": 10,
+        "name": "queen",
+        "sign": "clubs",
+        "url": "deck/queen-clubs.png"
+    },
+    {
+        "value": 10,
+        "name": "king",
+        "sign": "hearts",
+        "url": "deck/king-hearts.png"
+    },
+    {
+        "value": 10,
+        "name": "king",
+        "sign": "diamonds",
+        "url": "deck/king-diamonds.png"
+    },
+    {
+        "value": 10,
+        "name": "king",
+        "sign": "spades",
+        "url": "deck/king-spades.png"
+    },
+    {
+        "value": 10,
+        "name": "king",
+        "sign": "clubs",
+        "url": "deck/king-clubs.png"
+    },
+    {
+        "value": 10,
+        "name": "joker",
+        "sign": "red",
+        "url": "deck/joker-red.png"
+    },
+    {
+        "value": 10,
+        "name": "joker",
+        "sign": "blue",
+        "url": "deck/joker-blue.png"
+    }
+]
