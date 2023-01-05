@@ -180,10 +180,10 @@ scene("game", ()=>{
 
     function enemySpawner(){
         var enemy = add([
-            rect(30, 80),
+            rect(30, 60),
             color(255,0,0),
             area(),
-            pos(width()-30, height()-80 - 30),
+            pos(width()-30, height()-150),
             "cactus",
             {passed: false},
             scale(2)

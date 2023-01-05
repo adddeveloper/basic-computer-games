@@ -11,7 +11,7 @@ optionFour = document.getElementById("OptionFour__"),
 img__ = document.getElementById("img__"); 
 
 var alloption = [optionOne, optionTwo, optionThree, optionFour];
-var x = 0;
+var x = 0, s = 0;
 
 fetch("logo.json")
 .then(res => res.json())
@@ -41,22 +41,26 @@ function newone(){
         }
     });
 
-    score__.innerHTML = String(x+1);
- 
-    // checker
-    alloption.forEach((e)=>{
-        e.addEventListener("click", ()=>{
-            if(e.innerHTML != remove__(ddata__[x])){
-                console.log("wrong ", x);
-            } else{
-                console.log("right ", x);
-                x++;
-                if(x>=100){
-                    alert("congrats!!!")
-                    x = 0;
-                }
+    score__.innerHTML = String(s);
+}
+
+alloption.forEach((e)=>{
+    e.addEventListener("click", ()=>{
+        if(e.innerHTML != remove__(ddata__[x])){
+            console.log("wrong ", x);
+            x++;
+            newone();
+        } else{
+            console.log("right ", x);
+            x++;
+            s++;
+            if(x>99){
+                alert("congrats!!!")
+                x = 0;
+                window.location.reload();
+            } else {
                 newone();
             }
-        })
-    });
-}
+        }
+    })
+});

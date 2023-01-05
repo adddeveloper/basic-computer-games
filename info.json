@@ -1,42 +1,49 @@
 [
     {
         "name": "Chrome Dino",
+        "description": [],
         "url": "https://dinos-game.netlify.app",
         "hasImage": true,
         "created": "September 26, 2022"
     },
     {
         "name": "Break-out Bricks",
+        "description": [],
         "url": "https://breakbrick.netlify.app",
         "hasImage": true,
         "created": "August 21, 2022"
     },
     {
         "name": "Ping Pong",
+        "description": [],
         "url": "https://table-ping-pong.netlify.app",
         "hasImage": true,
         "created": "August 21, 2022"
     },
     {
         "name": "Flappy Bird",
+        "description": [],
         "url": "https://flappie.netlify.app",
         "hasImage": true,
         "created": "August 21, 2022"
     },
     {
         "name": "Guess The Logo",
+        "description": [],
         "url": "https://guess-logo.netlify.app",
         "hasImage": true,
         "created": "October 24, 2022"
     },
     {
         "name": "Guess The Slogan",
+        "description": [],
         "url": "https://slogantrivia.netlify.app",
         "hasImage": true,
         "created": "October 24, 2022"
     },
     {
         "name": "Memory Concentration",
+        "description": [],
         "url": "https://memoryconcentration.netlify.app",
         "hasImage": true,
         "created": "November 21, 2022"

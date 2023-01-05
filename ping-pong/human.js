@@ -22,7 +22,10 @@ wait(0.5, ()=>{
     ])
     // player paddle
     const player = add([
-        sprite("player"),
+        sprite("player", {
+            width: 20, 
+            height: 150
+        }),
         pos(width()/2 + 450, height()/2-50),
         area(),
         {
@@ -37,14 +40,17 @@ wait(0.5, ()=>{
         pos(width()/2 -30/2, height()/2),
         area(),
         {
-            ax : 6,
-            ay: 6
+            ax : Math.floor(Math.random() * (6 - 4) ) + 4,
+            ay: Math.floor(Math.random() * (6 - 4) ) + 4
         },
         "ballhuman",
     ])
     // computer paddle
     const computer = add([
-        sprite("computer"),
+        sprite("computer", {
+            width: 20, 
+            height: 150
+        }),
         pos(35, height()/2 - 50),
         area(),
         {

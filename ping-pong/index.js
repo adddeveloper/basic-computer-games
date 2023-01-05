@@ -34,11 +34,11 @@ scene("ai_game", ()=>{
             color(0,0,0),
             "line"
         ])
-        const scoreP = add([
+        const scorePPP = add([
             text("0"), pos(width()/2 + 10, 10)
         ])
 
-        const scoreC = add([
+        const scoreCCC = add([
             text("0"), pos(width()/2 - 50, 10)
         ])
         // player paddle
@@ -149,9 +149,9 @@ scene("ai_game", ()=>{
         ]);
         onClick("restart",()=>{
             score.computer = 0;
-            scoreC.text = score.computer.toString();
+            scoreCCC.text = score.computer.toString();
             score.player = 0;
-            scoreP.text = score.player.toString();
+            scorePPP.text = score.player.toString();
             startNow= false;
             ball.pos.x =width()/2 -30/2;ball.pos.y = height()/2
         })
@@ -200,13 +200,13 @@ scene("ai_game", ()=>{
             ball.pos.x =width()/2;ball.pos.y = height()/2;
 
             score.player += 1;
-            scoreP.text = score.player.toString();
+            scorePPP.text = score.player.toString();
             ball.ax *= -1; 
         } if (ball.pos.x + ball.width > canvas.width){
             ball.pos.x =width()/2;ball.pos.y = height()/2;
             
             score.computer += 1;
-            scoreC.text = score.computer.toString();
+            scoreCCC.text = score.computer.toString();
             ball.ax *= -1;
         }
 
