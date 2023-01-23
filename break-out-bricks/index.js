@@ -1,5 +1,10 @@
 let clickS = 0;
+var gameHasStarted = false;
 function restart() {
+    if(gameHasStarted){
+        gameHasStarted = false;
+    }
+    person["x"] = canvas.width / 2 - 50;
     // window.location = "/Canvas Games/Break-Out Bricks";
     ball.ax =0;
     ball.ay =0;
@@ -108,6 +113,9 @@ let ball = {
 function startgame() {
     // ball.ax = 4;
     ball.ay = 7;
+    if(!gameHasStarted){
+        gameHasStarted = true;
+    }
 }
 
 function drawball() {
@@ -377,6 +385,7 @@ function moveleft() {
 }
 
 function keydown(e) {
+    if(!gameHasStarted) return;
     if (e.key === "d" || e.key === "ArrowRight") {
         moveright();
     } else if (e.key === "a" || e.key === "ArrowLeft") {
