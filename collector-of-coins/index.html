@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coin Collector</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1 class="text-center">
+        <span id="score">
+            Missed: <span id="miss" style='color: red;'>0 coins</span>
+            <br>
+            Collected: <span id="collect" style='color: green;'>0 coins</span>
+        </span>
+    </h1>
+
+    <canvas id="canvas"></canvas>
+
+    <audio id="bgMusic" src="sound/background.mp3"></audio>
+    <audio id="bounceMusic" src="sound/bounce.wav"></audio>
+    <audio id="coinMusic" src="sound/coin.mp3"></audio>
+
+    <img style="display: none;" src="sprites/button.png" id="startbutton">
+    <img style="display: none;" src="sprites/circle/ball (2).png" id="ball">
+    <img style="display: none;" src="sprites/gold-coin/1.png" id="coin">
+    <div id="controller" class="fixed-bottom container-fluid d-flex justify-content-between align-items-center">
+        <div id="left_">
+            <svg style="width: 18rem; height: 15rem;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+              </svg>
+        </div>
+        <div id="right_">
+            <svg style="width: 18rem; height: 15rem;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+              </svg>
+        </div>
+    </div>
+    <script src="index.js"></script>
+    <script src="keyboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "comfortaa";
+    src: url("Comfortaa-VariableFont_wght.ttf");
+}
+canvas{
+    border: solid 1px black;
+    margin: 1rem !important;
+    cursor: pointer;
+}
+*{
+    font-family: "comfortaa";
+}
+
+#controller > *{
+    user-select: none;
+}
+
+#controller{
+    user-select: none;
+}

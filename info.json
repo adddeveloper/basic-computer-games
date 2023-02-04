@@ -1,51 +1,58 @@
 [
     {
-        "name": "Chrome Dino",
-        "description": [],
-        "url": "https://dinos-game.netlify.app",
+        "name": "Chrome Dino Runner",
+        "description": "This fun and challenging game features a dino that must jump over dangerous obstacles in order to survive. With simple controls and addictive gameplay, it's the perfect way to pass the time when you're bored or need a quick break from work.",
+        "url": "chrome-dino",
         "hasImage": true,
         "created": "September 26, 2022"
     },
     {
-        "name": "Break-out Bricks",
-        "description": [],
-        "url": "https://breakbrick.netlify.app",
+        "name": "Breakout Brick Smasher",
+        "description": "In this exciting arcade-style game, you'll use a ball to break apart a wall of bricks, trying to prevent the ball from hitting the floor and ending your game. With various levels of difficulty, this game is sure to keep you entertained and on your toes.",
+        "url": "break-out-bricks",
         "hasImage": true,
         "created": "August 21, 2022"
     },
     {
-        "name": "Ping Pong",
-        "description": [],
-        "url": "https://table-ping-pong.netlify.app",
+        "name": "Virtual Table Tennis",
+        "description": "Bring the fun of ping pong to your screen with this thrilling game. You can choose to play against the computer or challenge a friend, making it the perfect option for a fun solo experience or a friendly competition.",
+        "url": "ping-pong",
         "hasImage": true,
         "created": "August 21, 2022"
     },
     {
-        "name": "Flappy Bird",
-        "description": [],
-        "url": "https://flappie.netlify.app",
+        "name": "Flappy Adventure",
+        "description": "Relive the excitement of the classic game Flappy Bird with this updated and modern take on the beloved classic. With improved graphics, sound effects, and gameplay, this game is sure to provide hours of fun and excitement.",
+        "url": "flappy-bird",
         "hasImage": true,
         "created": "August 21, 2022"
     },
     {
-        "name": "Guess The Logo",
-        "description": [],
-        "url": "https://guess-logo.netlify.app",
+        "name": "Logo Quiz Challenge",
+        "description": "Put your knowledge of brand logos to the test in this fun and challenging game. Guess the logos correctly and rack up points, challenging yourself and your friends to see who can get the highest score.",
+        "url": "name-logo",
         "hasImage": true,
         "created": "October 24, 2022"
     },
     {
-        "name": "Guess The Slogan",
-        "description": [],
-        "url": "https://slogantrivia.netlify.app",
+        "name": "Slogan Trivia",
+        "description": "Do you know the slogans for some of the biggest and most well-known brands? Test your knowledge and see how many you can correctly identify in this fun and educational game.",
+        "url": "name-slogan",
         "hasImage": true,
         "created": "October 24, 2022"
     },
     {
-        "name": "Memory Concentration",
-        "description": [],
-        "url": "https://memoryconcentration.netlify.app",
+        "name": "Memory Match Master",
+        "description": "Put your memory to the test in this fun and challenging concentration game. Flip cards to reveal hidden images, and try to remember where each image is located so you can match them up and earn points.",
+        "url": "memory-concentration",
         "hasImage": true,
         "created": "November 21, 2022"
+    },
+    {
+        "name": "Coin Collecting Adventure",
+        "description": "In this fun and challenging game, you'll control a ball as it moves from platform to platform, collecting coins along the way. With tricky obstacles and challenging levels, this game is sure to keep you entertained for hours.",
+        "url": "collector-of-coins",
+        "hasImage": false,
+        "created": "Febuary 2, 2023"
     }
 ]
