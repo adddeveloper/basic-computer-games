@@ -52,7 +52,7 @@
         "name": "Coin Collecting Adventure",
         "description": "In this fun and challenging game, you'll control a ball as it moves from platform to platform, collecting coins along the way. With tricky obstacles and challenging levels, this game is sure to keep you entertained for hours.",
         "url": "collector-of-coins",
-        "hasImage": false,
+        "hasImage": true,
         "created": "Febuary 2, 2023"
     }
 ]
