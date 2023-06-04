@@ -54,5 +54,12 @@
         "url": "collector-of-coins",
         "hasImage": true,
         "created": "Febuary 2, 2023"
+    },
+    {
+        "name": "Chess Practice",
+        "description": "Practice your chess co-ordinate knowledge.",
+        "url": "chess-practice",
+        "hasImage": true,
+        "created": "June 3, 2023"
     }
 ]
