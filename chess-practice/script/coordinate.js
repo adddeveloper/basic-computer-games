@@ -52,13 +52,13 @@ board.forEach((e, y) => {
   e.forEach((f, x) => {
     if (y > 5 && f != ' ') {
       var img = document.createElement("img");
-      img.src = "/pieces/white/" + f.toUpperCase() + '.png';
+      img.src = "/chess-practice/pieces/white/" + f.toUpperCase() + '.png';
       img.onload = () => {
         context.drawImage(img, x * blocksize, y * blocksize, blocksize, blocksize);
       };
     } else if (y < 5 && f != ' ') {
       var img = document.createElement("img");
-      img.src = "/pieces/black/" + f.toUpperCase() + '.png';
+      img.src = "/chess-practice/pieces/black/" + f.toUpperCase() + '.png';
       img.onload = () => {
         context.drawImage(img, x * blocksize, y * blocksize, blocksize, blocksize);
       };
