@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordinate Training || Chess Practice</title>
+</head>
+<body>
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        canvas{
+            border: solid black 1px;
+            margin: 5rem 0 0 5rem;
+            cursor:pointer;
+        }
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        .btn{
+            padding: 0 1rem;
+            font-size: 1rem;
+            background-color: white;
+            cursor: pointer;
+            border: 1px black solid;
+            outline: none;
+        }
+        h1{
+            font-weight: lighter;
+        }
+        p{
+            font-size: 4rem;
+        }
+        #time{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
+            padding: 0 1rem;
+            font-size: 2rem;
+            border: solid 1px black;
+            user-select: none;
+        }
+        .d-none{
+            display: none !important;
+        }
+    </style>
+    <div class="container">
+        <canvas id="canvas"></canvas>
+        <div id="holder" style="margin: 5rem 0 0 1rem;display: flex;justify-content:center;flex-direction: column;align-items: center;">
+            <div id="startmenu" style="display: flex;flex-direction: column;align-items: center;">
+                <h1>Coordinates Trainer</h1>
+                <button class="btn">start</button>
+            </div>
+            <div id="instructions" class="d-none" style="display: flex;flex-direction: column;align-items: center;">
+                <p id="coordinate">a3</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="/script/all.js"></script>
+    <script src="/script/index.js"></script>
+    <script src="script/coordinate.js"></script>
+</body>
+</html>
