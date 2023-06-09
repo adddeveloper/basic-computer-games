@@ -29,7 +29,7 @@ var canshoot = false;
 var bulletsize = {
     w: 15,
     h: 25,
-    sprite: loadsprite("/images/bullet.png")
+    sprite: loadsprite("images/bullet.png")
 }
 
 function createBullet() {
