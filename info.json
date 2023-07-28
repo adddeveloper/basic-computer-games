@@ -61,5 +61,12 @@
         "url": "chess-practice",
         "hasImage": true,
         "created": "June 3, 2023"
+    },
+    {
+        "name": "Palent Survival",
+        "description": "Try and Survive in this harsh planet.",
+        "url": "Planet-Survival",
+        "hasImage": true,
+        "created": "June 28, 2023"
     }
 ]
