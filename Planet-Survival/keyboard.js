@@ -6,10 +6,6 @@ var timerTwo = 0;
 var coolDown = 1000;
 
 window.addEventListener("keydown", (e) => {
-    if (e.key === "d"){
-        camera.x++;
-    }
-
     if (e.key === "Enter" && !gamestarted) {
         playerOne.state = "idle";
         createEnemy();
@@ -25,13 +21,13 @@ window.addEventListener("keydown", (e) => {
     if(!gamestarted) return;
     var currentTime = new Date().getTime();
 
-    if (e.key === "d" && playerOne.state != "strike") {
-        playerOne.speed = 1;
+    if (e.key === "d" && playerOne.state != "strike" && camera.x <= canvas.width*2.9) {
+        playerOne.speed = 4;
         camera.speed = 2;
         playerOne.state = "walk";
     } 
-    else if (e.key === "a") {
-        playerOne.speed = -1;
+    else if (e.key === "a" && camera.x <= canvas.width*2.9) {
+        playerOne.speed = -4;
         camera.speed = -2;
         playerOne.state = "walkLeft";
     }
@@ -57,9 +53,7 @@ window.addEventListener("keydown", (e) => {
                         e.state = "death";
                         e.currentFrame = 0;
                         e.frames__ = 0;
-                        console.log("enemy death")
                     }
-                    console.log("enemy health: ",e.health)
                 }
             })
         }

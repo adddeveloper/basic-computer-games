@@ -131,7 +131,7 @@ function createEnemy(x) {
             {
                 w: 150,
                 h: 150,
-                x: canvas.width * ((Math.random() * 4) + 2) - camera.x,
+                x: canvas.width * ((Math.random() * 4) + 3),
                 y: canvas.height * (3 / 4),
                 speed: 0,
                 health: 1,
@@ -145,6 +145,7 @@ function createEnemy(x) {
             }
         )
     }
+    // ((Math.random() * 4) + 3)
 }
 
 function drawEnemy() {
@@ -253,7 +254,6 @@ function drawEnemy() {
             // }
             if(e.state == "death"){
                 createEnemy(i)
-                console.log("enemy died")
             }
         } else if(e.currentFrame == enemySprite[e.state].length-1){
             e.currentFrame = 0;
@@ -359,7 +359,7 @@ function game(){
     context.fillText(textOne, xone-.5, yone-.5);
 
     if(camera.x < canvas.width*1.7){
-        // camera.x++;
+        camera.x++;
     }
 }
 
